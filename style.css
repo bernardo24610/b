@@ -1,0 +1,1011 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5) !important; 
+}
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .navbar-toggler-icon,
+.navbar .cart-icon {
+    color: #ffffff !important; 
+                   }
+        .imgg{
+            position: absolute;
+            top: 0px;
+            z-index: -1;
+
+        }
+
+        .cart-icon {
+            color: white;
+            margin-left: 15px;
+            transition: color 0.3s ease-in-out;
+        }
+        a.cart-icon:hover{
+            transition: 0.4s;
+            opacity: 0.4;
+
+        }
+        #colorPicker {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            cursor: move;
+        }
+
+        .container h1 {
+            font-size: 1.4em;
+            text-align: left;
+            color: #403e3e;
+            position: absolute;
+            bottom: 693px;
+            padding-left: 10px;
+            font-style: italic;
+
+        }
+
+        .container h2 {
+            font-size: 4em;
+            text-align: left;
+            color: #403e3e;
+            position: absolute;
+            bottom: 600px;
+            font-style: italic;
+
+        }
+
+        .container p {
+            font-size: 1.5em;
+            text-align: left;
+            color: #403e3e;
+            position: absolute;
+            bottom: 450px;
+            font-style: italic;
+
+        }
+        .buttonn .but12 {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: transparent; 
+    border: 2px solid #ffffff; 
+    border-radius: 5px;
+    text-transform: uppercase; 
+    transition: all 0.3s ease; 
+    text-decoration: none; 
+    position: relative;
+    bottom:600px ;
+    left: 308px;
+}
+
+.buttonn .but12:hover {
+    background-color: #ffffff; 
+    color: #000000; 
+    border-color: #ffffff; 
+}
+.navbar-brand{
+  font-family: Georgia, serif; 
+  font-size: 1.9em;
+}
+.btn{
+  background-color: #1c1c1c;
+  border: #1c1c1c;
+}
+.son{
+    background-color: #000000;
+    padding-bottom:800px;
+    max-height: 100px;
+    position: absolute;
+    top: 850px;
+    left: -150px;
+    padding-left: 930px;
+}
+body {
+    color: var(--main-text-color); 
+}
+
+h1, h2, h3, h4, h5, h6, p, span, div, a, button {
+    color: var(--main-text-color);
+}
+.bottom-img{
+    height: 800px;
+    width: 1140px;
+    padding-left: 100px;
+}
+.pro h2{
+    color: rgb(180, 185, 185);
+    font-style:oblique ;
+    position: absolute;
+    top: 950px;
+    padding-left: 70px;
+    
+}
+.pro p{
+    color: rgb(180, 185, 185);
+    position: absolute;
+    top: 1020px;
+    padding-left: 70px;
+    font-size: 0.85em;
+
+}
+.proo h2{
+    color: rgb(180, 185, 185);
+    position: absolute;
+    left: 1098px;
+    top: 1700px;
+    font-style: oblique;
+}
+.proo p{
+    color: rgb(180, 185, 185);
+    position: absolute;
+    left: 1100px;
+    top: 1780px;
+    font-style: oblique;
+
+}
+
+/* First Card */
+.card {
+    width: 16rem;
+    position: relative; 
+    overflow: hidden; 
+    border: 1px solid #2c2b2b; 
+    transition: transform 0.3s ease; 
+    left: 60px;
+    margin-bottom: 0px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+.view-details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none;
+    opacity: 0; 
+    pointer-events: none; 
+    transition: all 0.3s ease;
+}
+
+.card:hover, .card:hover .view-details {
+    opacity: 1; 
+    pointer-events: auto; 
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    background-color: #2c2b2b; 
+    color: white;
+    text-align: center; 
+    padding: 20px;
+}
+
+/* Second Card */
+.card2 {
+    width: 16rem;
+    position: relative; 
+    overflow: hidden; 
+    border: 1px solid #2c2b2b; 
+    transition: transform 0.3s ease;
+    left: 400px;
+    top: -360px;
+}
+.view-details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none;
+    opacity: 0; 
+    pointer-events: none; 
+    transition: all 0.3s ease;
+}
+
+.card:hover, .card2:hover .view-details {
+    opacity: 1; 
+    pointer-events: auto; 
+}
+
+.card2:hover {
+    transform: scale(1.05);
+}
+
+.card2-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card2-body {
+    background-color: #2c2b2b; 
+    color: white;
+    text-align: center; 
+    padding: 20px;
+}
+
+/* Add to Cart Buttons */
+.cart-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #2c2b2b;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Show 'Add to Cart' on Hover */
+.card:hover .cart-btn, .card2:hover .cart-btn {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.cart-btn i {
+    font-size: 1.2rem;
+}
+
+/* Text Align */
+.card-text, .card2-text {
+    text-align: left;
+}
+
+.card3 {
+    width: 16rem;
+    position: relative; 
+    overflow: hidden; 
+    border: 1px solid #2c2b2b; 
+    transition: transform 0.3s ease; 
+    left: 1100px;
+    top: 100px;
+}
+.view-details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none;
+    opacity: 0; 
+    pointer-events: none; 
+    transition: all 0.3s ease;
+}
+
+.card:hover, .card3:hover .view-details {
+    opacity: 1; 
+    pointer-events: auto; 
+}
+
+.card3:hover {
+    transform: scale(1.05);
+}
+
+.card3-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card3-body {
+    background-color: #2c2b2b; 
+    color: white;
+    text-align: center; 
+    padding: 20px;
+}
+
+/* Add to Cart Buttons */
+.cart-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #2c2b2b;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Show 'Add to Cart' on Hover */
+.card:hover .cart-btn, .card3:hover .cart-btn {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.cart-btn i {
+    font-size: 1.2rem;
+}
+
+/* Text Align */
+.card-text, .card3-text {
+    text-align: left;
+}
+
+.card4 {
+    width: 16rem;
+    position: relative;
+    overflow: hidden; 
+    border: 1px solid #2c2b2b; 
+    transition: transform 0.3s ease; 
+    left: 1500px;
+    top: -258px;
+}
+.view-details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none;
+    opacity: 0; 
+    pointer-events: none; 
+    transition: all 0.3s ease;
+}
+
+.card:hover, .card4:hover .view-details {
+    opacity: 1; 
+    pointer-events: auto; 
+}
+
+.card4:hover {
+    transform: scale(1.05);
+}
+
+.card4-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card4-body {
+    background-color: #2c2b2b; 
+    color: white;
+    text-align: center; 
+    padding: 20px;
+}
+
+/* Add to Cart Buttons */
+.cart-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #2c2b2b;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Show 'Add to Cart' on Hover */
+.card:hover .cart-btn, .card4:hover .cart-btn {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.cart-btn i {
+    font-size: 1.2rem;
+}
+
+/* Text Align */
+.card-text, .card4-text {
+    text-align: left;
+}
+.sonn {
+    background-color: #030202; 
+    min-height: 100px; 
+    width: 100.9%; 
+    display: flex; 
+    position: absolute; 
+    padding: 20px; 
+    padding-bottom: 800px;
+    top: 1650px;
+    z-index: -1;
+
+}
+.photo{
+    height: 820px;
+    width: 880px;
+    padding-left: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+
+}
+.son2{
+    background-color: #2a2929; 
+    min-height: 100px; 
+    width: 100.9%; 
+    display: flex; 
+    position: absolute; 
+    padding: 20px; 
+    padding-bottom: 750px;
+    top: 2465px;
+    z-index: -1;
+}
+.best h1{
+    color: #ffffff;
+    text-align: center;
+}
+.best p{
+    color: #ffffff;
+    text-align: center;
+}
+.card11 {
+    width: 16rem;
+    position: relative;
+    overflow: hidden; 
+    border: 1px solid #2c2b2b; 
+    transition: transform 0.3s ease; 
+    left: 1500px;
+    top: -258px;
+}
+
+.card11:hover {
+    transform: scale(1.05);
+}
+
+.card11-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card11-body {
+    background-color: #2c2b2b; 
+    color: white;
+    text-align: center; 
+    padding: 20px;
+}
+
+/* Add to Cart Buttons */
+.cart-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #2c2b2b;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.view-details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none;
+    opacity: 0; 
+    pointer-events: none; 
+    transition: all 0.3s ease;
+}
+
+.card:hover, .card11:hover .view-details {
+    opacity: 1; 
+    pointer-events: auto; 
+}
+
+/* Show 'Add to Cart' on Hover */
+.card:hover .cart-btn, .card11:hover .cart-btn {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.cart-btn i {
+    font-size: 1.2rem;
+}
+
+/* Text Align */
+.card-text, .card11-text {
+    text-align: left;
+}
+.classess{
+    position: absolute;
+    left: -1350px;
+    top: 3000px;
+}
+.card12 {
+    width: 16rem;
+  position: relative;
+  overflow: hidden; 
+  border: 1px solid #2c2b2b; 
+  transition: transform 0.3s ease; 
+  left: 1900px;
+  top: -620px;
+}
+
+.card12:hover {
+    transform: scale(1.05);
+}
+
+.card12-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card12-body {
+    background-color: #2c2b2b; 
+    color: white;
+    text-align: center; 
+    padding: 20px;
+}
+
+/* Add to Cart Buttons */
+.cart-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #2c2b2b;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.view-details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none;
+    opacity: 0; 
+    pointer-events: none; 
+    transition: all 0.3s ease;
+}
+
+.card:hover, .card12:hover .view-details {
+    opacity: 1; 
+    pointer-events: auto; 
+}
+
+/* Show 'Add to Cart' on Hover */
+.card:hover .cart-btn, .card12:hover .cart-btn {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.cart-btn i {
+    font-size: 1.2rem;
+}
+
+/* Text Align */
+.card-text, .card12-text {
+    text-align: left;
+}
+.card13{
+    width: 16rem;
+  position: relative;
+  overflow: hidden; 
+  border: 1px solid #2c2b2b; 
+  transition: transform 0.3s ease; 
+  left: 2306px;
+  top: -980px;
+  }
+  
+  .card:hover, .card13:hover 
+    {
+    transform: scale(1.05); 
+  }
+  
+  .card13-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card13-body {
+    background-color: #2c2b2b; 
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  .view-details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none;
+    opacity: 0; 
+    pointer-events: none; 
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover, .card13:hover .view-details {
+    opacity: 1; 
+    pointer-events: auto; 
+  }
+  
+  .cart-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #2c2b2b;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+  
+  .card:hover, .card13:hover .cart-btn {
+    opacity: 1; 
+    pointer-events: auto; 
+  }
+  
+  .cart-btn i {
+    font-size: 1.2rem; 
+  }
+  .card13-text{
+    text-align: left;
+  }
+  .card14{
+    width: 16rem;
+  position: relative;
+  overflow: hidden; 
+  border: 1px solid #2c2b2b; 
+  transition: transform 0.3s ease; 
+  left: 2750px;
+  top: -1340px;
+  }
+  
+  .card:hover, .card14:hover 
+    {
+    transform: scale(1.05); 
+  }
+  
+  .card14-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card14-body {
+    background-color: #2c2b2b; 
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  .view-details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-decoration: none;
+    opacity: 0; 
+    pointer-events: none; 
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover, .card14:hover .view-details {
+    opacity: 1; 
+    pointer-events: auto; 
+  }
+  
+  .cart-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #2c2b2b;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+  
+  .card:hover, .card14:hover .cart-btn {
+    opacity: 1; 
+    pointer-events: auto; 
+  }
+  
+  .cart-btn i {
+    font-size: 1.2rem; 
+  }
+  
+  .add-to-cart i {
+    font-size: 1.2rem; 
+  }
+  .card14-text{
+    text-align: left;
+  }
+.son3{
+    background-color: #151414; 
+    min-height: 100px; 
+    width: 100.9%; 
+    display: flex; 
+    position: absolute; 
+    padding: 20px; 
+    padding-bottom: 850px;
+    top: 3210px;
+    z-index: -1;
+}
+.best2 h1{
+    color: #ffffff;
+    position: absolute;
+    top: 3300px;
+    left: 830px;
+}
+.best2 p{
+    position: absolute;
+    color: #625f5f;
+    top: 3380px;
+    left: 790px;
+
+}  
+.containerr {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px;
+    color: #ffffff;
+    max-width: 80%;
+    margin: 800px auto 0; 
+    padding: 20px;
+}
+.itemm{
+    padding-left: 110px;
+}
+.itemm h3{
+    font-style: italic;
+    font-size: 15px;
+}
+.itemm p{
+    font-style: italic;
+    font-size: 13px;
+    color: #929090;
+}
+.bottom-img31{
+    position: absolute;
+    top: 4080px;
+    opacity: 0.9;
+    z-index: -1;
+}
+.best3{
+    top: 4250px;
+    color: #ffffff;
+    position: absolute;
+    left: 790px;
+    font-style: italic;
+}
+.best3 h1{
+    font-size: 50px;
+}
+.best3 p{
+    position: absolute;
+    left: 35px;
+    font-size: 20px;
+}
+.buttonn2 .but13 {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: transparent; 
+    border: 2px solid #ffffff; 
+    border-radius: 5px;
+    text-transform: uppercase; 
+    transition: all 0.3s ease; 
+    text-decoration: none; 
+    position: absolute;
+    left: 890px;
+    top: 4380px;
+}
+
+.buttonn2 .but13:hover {
+    background-color: #ffffff; 
+    color: #000000; 
+    border-color: #ffffff; 
+}
+.son4{
+    background-color: #1f1f1f; 
+    min-height: 100px; 
+    width: 100.9%; 
+    display: flex; 
+    position: absolute; 
+    padding: 20px; 
+    padding-bottom: 450px;
+    top: 4645px;
+    z-index: -1;
+}
+.son5{
+    position: absolute; 
+    top: 4745px;
+    left: 470px;
+    font-style: oblique;
+}
+.son5 p{
+color: #ffffff; 
+font-size: 12px;
+}
+.son5 h1{
+    color: #ffffff;  
+    font-size: 17px;
+}
+.son6{
+    position: absolute; 
+    top: 4740px;
+    font-style: oblique;
+    left: 750px;
+}
+.son6 h1{
+    font-size: 17px;
+    color: #ffffff;
+
+}
+.son6 ul{
+    color: #ffffff;
+    list-style:inside ;
+    list-style-type: square;
+    font-size: 13px;
+}
+.son7{
+    position: absolute; 
+    top: 4740px;
+    font-style: oblique;
+    left: 1050px;
+}
+.son7 h1{
+    font-size: 17px;
+    color: #ffffff;
+
+}
+.son7 ul{
+    color: #ffffff;
+    list-style:inside ;
+    list-style-type:none;
+    font-size: 13px;
+}
+.a23{
+    position: absolute;
+left: 150px;
+top:10px
+}
+.a24{
+    position: absolute;
+    left: 150px;
+    top:110px
+}
+.a25{
+    position: absolute;
+    left: 150px;
+    top:210px
+}
+.son8{
+    position: absolute; 
+    top: 4740px;
+    font-style: oblique;
+    left: 1450px;
+}
+.son8 h1{
+    font-size: 17px;
+    color: #ffffff;
+
+}
+.son8 ul{
+    color: #ffffff;
+    list-style:inside ;
+    list-style-type:none;
+    font-size: 13px;
+}
